@@ -100,7 +100,7 @@
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  background: url();
+  background: url(../../img/profile.jpg);
   border-radius: 50%;
   border: solid 3px #eece1a;
 }
@@ -292,7 +292,7 @@ main#home h1 {
 
 .job {
   background: #515151;
-  padding: 0.5rem;
+  padding: 1rem;
   border-bottom: #eece1a 5px solid;
 }
 
