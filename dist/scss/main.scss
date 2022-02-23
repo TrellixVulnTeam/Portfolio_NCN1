@@ -21,6 +21,7 @@ body{
 h1, h2, h3 {
     margin: 0;
     font-weight: 400;
+    font-family: 'Inconsolata', monospace;
 
     &.lg-heading{
         font-size: 6rem;
@@ -96,6 +97,7 @@ main {
 
 .job-1 {
     grid-area: job1;
+
 }
 
 .job-2 {
@@ -108,11 +110,12 @@ main {
 
 .job {
     background: lighten($primary-color, 5);
-    padding: 1rem;
+    padding: 2rem;
     border-bottom: $secondary-color 5px solid;
 }
 
 //Work/Projects
+
 .projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -127,7 +130,8 @@ main {
             @include easeOut;
         }
     }
-}
+} 
+
 
 //Contact Page
 .boxes {

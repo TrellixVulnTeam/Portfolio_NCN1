@@ -192,6 +192,7 @@ body#bg-image::after {
 h1, h2, h3 {
   margin: 0;
   font-weight: 400;
+  font-family: 'Inconsolata', monospace;
 }
 
 h1.lg-heading, h2.lg-heading, h3.lg-heading {
@@ -292,7 +293,7 @@ main#home h1 {
 
 .job {
   background: #515151;
-  padding: 1rem;
+  padding: 2rem;
   border-bottom: #eece1a 5px solid;
 }
 
