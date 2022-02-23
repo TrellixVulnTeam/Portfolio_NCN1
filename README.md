@@ -1,7 +1,7 @@
 # Portfolio
 HTML, Scss and a little bit of Js
 
-##Avilable Scripts
+###Avilable Scripts
 
 In the project directory you can run:
 
