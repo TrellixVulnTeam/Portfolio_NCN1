@@ -3,6 +3,17 @@
     .aboutBody{
         height: 100%;
     }
+
+    .contactBody{
+        overflow: hidden;
+        height: 94vh;
+    }
+
+    .workBody{
+        overflow: hidden;
+        height: 94vh;
+    }
+
 }
 
 //Desktop and laptops
@@ -103,5 +114,4 @@
     .contactBody {
         height: 100%;
     }
-
 }

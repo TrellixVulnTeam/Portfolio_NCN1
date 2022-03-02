@@ -379,6 +379,14 @@ main#home h1 {
   .aboutBody {
     height: 100%;
   }
+  .contactBody {
+    overflow: hidden;
+    height: 94vh;
+  }
+  .workBody {
+    overflow: hidden;
+    height: 94vh;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
