@@ -375,10 +375,24 @@ main#home h1 {
   height: 60px;
 }
 
+@media screen and (min-width: 1171px) {
+  .aboutBody {
+    height: 100%;
+  }
+}
+
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
+  }
+  .about-info {
+        grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .aboutBody {
+    height: 100%;
   }
 }
 
@@ -427,6 +441,9 @@ main#home h1 {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
   }
+  .aboutBody {
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -437,7 +454,8 @@ main#home h1 {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
   }
-  body {
+  .workBody,
+  .aboutBody {
     height: 100%;
   }
 }
