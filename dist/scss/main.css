@@ -455,7 +455,7 @@ main#home h1 {
         grid-template-columns: repeat(1, 1fr);
   }
   .workBody,
-  .aboutBody {
+  .aboutBody .contactBody {
     height: 100%;
   }
 }
